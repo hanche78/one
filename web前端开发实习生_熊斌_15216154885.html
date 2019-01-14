@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body {
+            width: 100%;
+            height: auto;
+            font-size: 12px;
+            color: black;
+            margin: 0;
+            padding: 0;
+            background-color: #aaa;
+        }
+        .curriculum-vitae {
+            width: 720px;
+            height: 1048px;
+            margin: 0 auto;
+            background-color: white;
+            position: relative;
+        }
+
+        .personal-information > p:nth-child(5) {
+            font-weight: bold;
+            line-height: 2;
+            font-size: 14px;
+        }
+        .personal-information > p:nth-child(2),
+        .personal-information > p:nth-child(3),
+        .personal-information > p:nth-child(4){
+            line-height: .8;
+        }
+
+        .personal-information,
+        .educational-background,
+        .professional-skills,
+        .university-xperience,
+        .self-appraisal{
+            padding: 0 55px;
+        }
+        .personal-information {
+            padding-top: 40px;!important;
+        }
+        .p-pic {
+            width: 85px;
+            height: auto;
+            position: absolute;
+            top: 60px;
+            left: 550px;
+        }
+        h3 {
+            padding: 0;
+            margin: 20px 0 5px;
+        }
+        hr {
+            border: none;
+            border-bottom: 1px blue dashed;
+            padding: 0;
+            margin: 0;
+        }
+        span {
+            margin: 0 80px 0 0;
+            font-weight: bold;
+        }
+        .awayfrom {
+            padding-left: 155px;
+            line-height: 2;
+        }
+        .line-point {
+            position: relative;
+        }
+        .lp-line {
+            position: absolute;
+            top: -1020px;
+            left: 0;
+            z-index: 100;
+
+        }
+        .lp-line > .line:nth-child(1) {
+            width: 6px;
+            height: 1000px;
+            background-color: #F8FAFA;
+            border-radius: 10px;
+            position: absolute;
+            top: 0;
+            left: 25px;
+        }
+        .lp-line > .line:nth-child(2) {
+            width: 6px;
+            height: 1000px;
+            background-color: #F8FAFA;
+            border-radius: 10px;
+            position: absolute;
+            top: 0;
+            left: 40px;
+        }
+        .line-point > .point {
+            width: 14px;
+            height: 14px;
+            background-color: #2DB3FE;
+            border-radius: 8px;
+            z-index: 101;
+        }
+        .bigpoint > .point1 {
+            width: 15px;
+            height: 30px;
+            border-radius: 8px;
+            position: absolute;
+            top: -1000px;
+            left: 20px;
+            z-index: 102;
+            background-color: #2DB3FE;
+        }
+        .point1 > .horizontal-bar {
+            width: 9px;
+            height: 1px;
+            background-color: white;
+            z-index: 103;
+        }
+        .point1 > .horizontal-bar1 {
+            position: absolute;
+            top: 12px;
+            left: 3px;
+        }
+        .point1 > .horizontal-bar2 {
+            position: absolute;
+            top: 16px;
+            left: 3px;
+        }
+        .point1 > .horizontal-bar3 {
+            position: absolute;
+            top: 20px;
+            left: 3px;
+        }
+        .line-point > .point2 {
+            position: absolute;
+            top: -990px;
+            left: 36px;
+        }
+        .line-point > .point3 {
+            position: absolute;
+            top: -832px;
+            left: 36px;
+        }
+        .line-point > .point4 {
+            position: absolute;
+            top: -628px;
+            left: 36px;
+        }
+        .line-point > .point5 {
+            position: absolute;
+            top: -500px;
+            left: 36px;
+        }
+        .line-point > .point6 {
+            position: absolute;
+            top: -140px;
+            left: 36px;
+        }
+        .litter-point {
+            width: 7px;
+            height: 7px;
+            background-color: white;
+            border-radius: 4px;
+            z-index: 102;
+        }
+        .line-point > .litter-point1 {
+            position: absolute;
+            top: -987px;
+            left: 39.5px;
+        }
+        .line-point > .litter-point2 {
+            position: absolute;
+            top: -828.5px;
+            left: 39.5px;
+        }
+        .line-point > .litter-point3 {
+            position: absolute;
+            top: -624.5px;
+            left: 39.5px;
+        }
+        .line-point > .litter-point4 {
+            position: absolute;
+            top: -496.5px;
+            left: 39.5px;
+        }
+        .line-point > .litter-point5 {
+            position: absolute;
+            top: -136.5px;
+            left: 39.5px;
+        }
+
+    </style>
+</head>
+<body>
+    <!--个人简历-->
+    <div class="curriculum-vitae">
+        <!--个人信息-->
+        <div class="personal-information">
+            <h1>熊斌</h1>
+            <p>男&nbsp;&nbsp;|&nbsp;&nbsp;应届生</p>
+            <p>微信：HC578033852&nbsp;&nbsp;|&nbsp;&nbsp;QQ：2733192941</p>
+            <p>(+86) 152-1615-4885&nbsp;&nbsp;|&nbsp;&nbsp;shepherd_x@foxmail.com&nbsp;&nbsp;|&nbsp;&nbsp;南昌</p>
+            <p>求职意向：web前端开发实习生</p>
+            <img class="p-pic" src="http://a2.qpic.cn/psb?/V12S0Ban4QPDGi/VSUfYGKH.J.xID0AuHln9NQkca7qXXeQJb1EdW8LRqs!/b/dDUBAAAAAAAA&ek=1&kp=1&pt=0&bo=PQPDBAAAAAADV4s!&tl=1&vuin=2733192941&tm=1540976400&sce=60-2-2&rf=viewer_4" alt="这是一张证件照，请联网查看">
+        </div>
+
+        <!--教育背景-->
+        <div class="educational-background">
+            <h3>教育背景</h3>
+            <hr/>
+            <p>
+                <span style="font-weight: normal">2016.09&nbsp;-&nbsp;2019.06</span>
+                <span style="margin-left: -45px">江西工程学院</span>
+                <span>软件技术（APP方向）</span>
+                <span style="margin-left: -25px">大专</span>
+            </p>
+            <ul class="awayfrom">
+                <li>专业排名：4/55，GPA：3.6/4.0</li>
+                <li>主修课程：C语言、Java基础、Android开发、软件工程、数据结构、数据库管理、JSP、PHP、ASP.Net3.5</li>
+                <li>自学课程：HTML5 + CSS3 + Javascript、移动web、jQuery、vue.js、node.js、photoshop</li>
+            </ul>
+        </div>
+
+
+        <!--专业技能-->
+        <div class="professional-skills">
+            <h3>专业技能</h3>
+            <hr/>
+            <ul class="awayfrom">
+                <li>开发语言：精通html5 + css3 +js，熟悉jquery，了解vue.js、node.js</li>
+                <li>软件能力：熟练使用webstorm、dreamweaver、sublime、Hbuider等编码平台</li>
+                <li>荣誉证书：计算机程序设计四级、国家奖学金、移动互联网应用软件开发一等奖</li>
+            </ul>
+
+        </div>
+
+        <!--项目经历-->
+        <div class="self-appraisal">
+            <h3>项目经历</h3>
+            <hr/>
+            <ul class="awayfrom">
+                <li><a href="https://hanche78.github.io/one/index.html" target="_blank">1，第一个面试项目</a></li>
+                <li><a href="#" target="_blank">2，第二个面试项目</a></li>
+                <li><a href="#" target="_blank">3，第三个面试项目</a></li>
+            </ul>
+        </div>
+
+        <!--大学经历-->
+        <div class="university-xperience">
+            <h3>大学经历</h3>
+            <hr/>
+            <p>
+                <span style="font-weight: normal">2017,09 — 2018,06</span>
+                <span style="margin-left: -45px">校学生会</span>
+                <span style="margin-left: 16px">组织部/部长</span>
+            </p>
+            <ul class="awayfrom">
+                <li>1,负责策划并组织学校重大活动，如，学校篮球联赛、校运动会、校园歌手大赛等；</li>
+                <li>2,曾在2017年11月举办的校园万圣节晚会中组织的变装活动、游街及表演节目获得院长多次表扬。</li>
+            </ul>
+            <p>
+                <span style="font-weight: normal">2017,09 — 2018,06</span>
+                <span style="margin-left: -45px">软件工程学院</span>
+                <span style="margin-left: -8px">教务科/科长助理</span>
+            </p>
+            <ul class="awayfrom">
+                <li>1,负责科长办公会议及其他会议的组织工作和会议记录工作；</li>
+                <li>2,负责学院教务管理工作的布置、实施、检查、督促和落实执行情况；</li>
+                <li>3,负责学院教务文件的起草。</li>
+            </ul>
+            <p>
+                <span style="font-weight: normal">2016,09 — 2017,09</span>
+                <span style="margin-left: -45px">校学生会</span>
+                <span style="margin-left: 18px">主席团/主席助理</span>
+            </p>
+            <ul class="awayfrom">
+                <li>1,负责学生会周例会的开展，及会议记录整理工作</li>
+                <li>2,协助主席制定工作计划，督促各部门完成任务</li>
+            </ul>
+            
+        </div>
+
+
+
+        <!--左侧竖线和圆点-->
+        <div class="line-point">
+            <!--左侧的线-->
+            <div class="lp-line">
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+
+            <div class="bigpoint">
+                <!--左侧线上的滑动模块-->
+                <div class="point point1">
+                    <!--滑动模块上的三条横杠-->
+                    <div class="horizontal-bar horizontal-bar1"></div>
+                    <div class="horizontal-bar horizontal-bar2"></div>
+                    <div class="horizontal-bar horizontal-bar3"></div>
+                </div>
+            </div>
+
+            <!--每个大标题的蓝点-->
+            <div class="point point2"></div>
+            <div class="point point3"></div>
+            <div class="point point4"></div>
+            <div class="point point5"></div>
+            <div class="point point6"></div>
+            <!--每个大标题的白点-->
+            <div class="litter-point litter-point1"></div>
+            <div class="litter-point litter-point2"></div>
+            <div class="litter-point litter-point3"></div>
+            <div class="litter-point litter-point4"></div>
+            <div class="litter-point litter-point5"></div>
+        </div>
+    </div>
+
+
+</body>
+</html>
